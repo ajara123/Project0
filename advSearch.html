@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="links">
+            <a href="index.html">Go back to Google Search</a>
+        </div>
+        
+            <form action="http://www.google.com/search" id="adv_search">
+
+                <div style="font-size: 17px" >Find pages with...</div>
+                
+                <div class="row">
+                     <div class="col-3">
+                        all these words:
+                     </div>
+                    
+                    <input type="text" name="as_q">
+                     
+                </div>
+
+                <div class="row">
+                    <div class="col-3">
+                    this exact word or phrase:
+                    </div>
+                    
+                       <input type="text" name="as_epq">
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-3">
+                    any of these words:
+                    </div>
+                    <input  type="text" name="as_oq">
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-3">
+                    none of these words:
+                    </div>
+                       <input  type="text" name="as_eq">
+                </div>
+
+                <input id="adv_button" type="submit" value="Advanced Search">
+            </form>
+        
+            
+         
+    </body>
+</html>
